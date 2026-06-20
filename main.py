@@ -1,17 +1,7 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sat Jun 20 21:31:43 2026
-
-@author: 张晨昱
-"""
-
 import requests
 from DrissionPage import ChromiumPage
 import re
 import os
-
-#import moviepy
-#print(moviepy.__version__)
 
 os.makedirs("video",exist_ok=True)
 
